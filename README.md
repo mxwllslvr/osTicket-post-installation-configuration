@@ -46,8 +46,6 @@ This guide is organized into seven key sections:
 ## Configuration Steps
 
 ### Section 1: Understanding URLs and Panel Navigation
-![osTicket Post-Installation Configuration Guide 1]()
-![osTicket Post-Installation Configuration Guide 2]()
 
 <table>
   <tr>
@@ -71,3 +69,4 @@ osTicket operates through two primary access points that serve different user ty
 - URL: `http://localhost/osTicket`
 - Purpose: Customer-facing portal for ticket submission and status tracking
 - **Bookmark Recommendation**: Save as "osTicket Support Center Portal" in your VM browser
+
