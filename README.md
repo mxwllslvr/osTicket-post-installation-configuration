@@ -70,3 +70,23 @@ osTicket operates through two primary access points that serve different user ty
 - Purpose: Customer-facing portal for ticket submission and status tracking
 - **Bookmark Recommendation**: Save as "osTicket Support Center Portal" in your VM browser
 
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Admin Panel View" src="https://github.com/user-attachments/assets/6eb7584e-d271-4898-bc03-b7f9ca96ae4b"/>
+    </td>
+    <td>
+      <img width="1000" alt="Agent Panel View" src="https://github.com/user-attachments/assets/fd5c7c79-6fb8-4e88-a9b9-2e85f71ebf61"/>
+    </td>
+  </tr>
+</table>
+
+**Panel Navigation**
+
+Within the Staff Control Panel, you'll work with two distinct interfaces:
+
+- **Admin Panel**: Backend configuration interface for system administrators to manage settings, users, and system parameters
+- **Agent Panel**: Operational interface for help desk agents to process and resolve tickets
+
+**Panel Switching**: Toggle between panels using the panel name indicator in the top-right corner of the interface. This guide will frequently require switching between both panels.
+
