@@ -43,3 +43,31 @@ This guide is organized into seven key sections:
 
 ---
 
+## Configuration Steps
+
+### Section 1: Understanding URLs and Panel Navigation
+![osTicket Post-Installation Configuration Guide 1]()
+![osTicket Post-Installation Configuration Guide 2]()
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Admin Panel" src="https://github.com/user-attachments/assets/b252fd8b-8ae6-4a0b-94a2-5d0a1a8c0ffe"/>
+    </td>
+    <td>
+      <img width="1000" alt="User Portal" src="https://github.com/user-attachments/assets/9c7229fb-fc2e-4561-aec6-e1bc71d08700"/>
+    </td>
+  </tr>
+</table>
+
+osTicket operates through two primary access points that serve different user types:
+
+**Staff Control Panel (Admin/Agent Access)**
+- URL: `http://localhost/osTicket/scp`
+- Purpose: Administrative interface for system administrators and help desk agents
+- **Bookmark Recommendation**: Save as "osTicket Agent Portal" in your VM browser
+
+**End User Support Center**
+- URL: `http://localhost/osTicket`
+- Purpose: Customer-facing portal for ticket submission and status tracking
+- **Bookmark Recommendation**: Save as "osTicket Support Center Portal" in your VM browser
