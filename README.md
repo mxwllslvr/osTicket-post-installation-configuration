@@ -90,3 +90,60 @@ Within the Staff Control Panel, you'll work with two distinct interfaces:
 
 **Panel Switching**: Toggle between panels using the panel name indicator in the top-right corner of the interface. This guide will frequently require switching between both panels.
 
+### Section 2: Role Configuration
+
+<table>
+  <tr>
+    <td>
+      <img width="996" alt="Role Creation" src="https://github.com/user-attachments/assets/df8905b9-0e3d-430e-8885-08588f3e6030"/>
+    </td>
+    <td>
+      <img width="1000" alt="Role Setup" src="https://github.com/user-attachments/assets/a8b2e1e6-bb7d-44f9-8d95-03e1a2c11848"/>
+    </td>
+  </tr>
+</table>
+
+Roles define permission levels and access rights within osTicket. Let's create a comprehensive administrative role:
+
+**Creating the Supreme Admin Role**
+1. Navigate to **Admin Panel** (verify "Agent Panel" displays in top-right)
+2. Access **Agents → Roles → + Add New Role**
+3. Set **Role Name**: "Supreme Admin"
+4. Click the **Permissions** tab to configure access rights
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Ticket Permissions" src="https://github.com/user-attachments/assets/a1965a84-0e17-4795-8cea-d20e615f2e57"/>
+    </td>
+    <td>
+      <img width="1000" alt="Task Permissions" src="https://github.com/user-attachments/assets/f08a9c02-64fb-43d7-9d4f-b31b96b8e978"/>
+    </td>
+  </tr>
+</table>
+
+**Permission Configuration**
+- **Tickets Section**: Enable all permission checkboxes, then proceed to **Tasks**
+- **Tasks Section**: Enable all permission checkboxes, then proceed to **Knowledgebase**
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Knowledge Permissions" src="https://github.com/user-attachments/assets/9572c073-cd09-4830-bf9e-8a625174c555"/>
+    </td>
+    <td>
+      <img width="1000" alt="Role Confirmation" src="https://github.com/user-attachments/assets/309c26d3-2617-4c07-b935-52435e386fa3"/>
+    </td>
+  </tr>
+</table>
+
+- **Knowledgebase Section**: Enable the available permission checkbox
+- Click **Add Role** to finalize creation
+
+**Result**: The Supreme Admin role is now available for assignment, providing comprehensive system access for demonstration purposes.
+
+
+
+
+
+
