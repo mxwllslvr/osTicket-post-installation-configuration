@@ -142,6 +142,35 @@ Roles define permission levels and access rights within osTicket. Let's create a
 
 **Result**: The Supreme Admin role is now available for assignment, providing comprehensive system access for demonstration purposes.
 
+### Section 3: Department Setup
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Department Creation" src="https://github.com/user-attachments/assets/fc13e32e-8127-4037-813c-bee039b3c6c8"/>
+    </td>
+    <td>
+      <img width="1000" alt="Department Configuration" src="https://github.com/user-attachments/assets/c811a5ca-7646-49ee-bfb1-5be7f2ca4c69"/>
+    </td>
+  </tr>
+</table>
+
+Departments organize agents and tickets based on functional areas or expertise domains.
+
+**Creating the SysAdmins Department**
+1. In **Admin Panel**, navigate to **Agents → Departments → + Add New Department**
+2. **Settings Configuration**:
+   - **Parent**: Maintain "Top-Level Department" selection
+   - **Department Name**: "SysAdmins"
+3. **Note**: The Access tab configuration will be completed after agent creation
+4. Scroll down and click **Create Dept**
+
+<p>
+<img width="950" alt="Department Success" src="https://github.com/user-attachments/assets/0d4b64e2-148d-4889-9711-d1cb122557f7"/>
+</p>
+
+**Confirmation**: The SysAdmins Department has been successfully established and is ready for agent assignment.
+
 
 
 
