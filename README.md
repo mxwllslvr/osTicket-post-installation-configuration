@@ -172,6 +172,49 @@ Departments organize agents and tickets based on functional areas or expertise d
 **Confirmation**: The SysAdmins Department has been successfully established and is ready for agent assignment.
 
 
+![osTicket Post-Installation Configuration Guide 14]()
+![osTicket Post-Installation Configuration Guide 15]()
+
+![osTicket Post-Installation Configuration Guide 16]()
+
+
+### Section 4: Team Management
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Team Creation" src="https://github.com/user-attachments/assets/27583949-d847-477c-a6c8-af30529204bb"/>
+    </td>
+    <td>
+      <img width="1000" alt="Team Setup" src="https://github.com/user-attachments/assets/0962e05e-297f-4f90-a6a8-6b10711565b1"/>
+    </td>
+  </tr>
+</table>
+
+Teams enable cross-departmental collaboration for specialized support areas.
+
+**Creating the Online Banking Team**
+1. From **Admin Panel**, access **Agents → Teams → + Add New Team**
+2. **Team Name**: "Online Banking"
+3. **Member Assignment**: Defer until agent creation is complete
+4. Click **Create Team**
+
+<p>
+<img width="750" alt="Registration Settings" src="https://github.com/user-attachments/assets/c5f92127-fa03-4f0f-a353-75419901fb3d"/>
+</p>
+
+**User Registration Configuration**
+To streamline ticket creation for end users:
+1. Navigate to **Admin Panel → Settings → Users**
+2. Under **Authentication Settings**, uncheck **"Require registration and login to create tickets"**
+3. Click **Save Changes**
+
+This setting allows anonymous ticket submission, improving accessibility for end users.
+
+
+
+
+
 
 
 
