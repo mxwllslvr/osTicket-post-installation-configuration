@@ -446,7 +446,7 @@ Help Topics categorize incoming tickets and can trigger automatic routing and pr
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-## Configuration Summary
+## Conclusion
 
 This post-installation configuration has successfully established:
 
