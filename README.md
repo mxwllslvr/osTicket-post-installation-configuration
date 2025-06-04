@@ -172,12 +172,6 @@ Departments organize agents and tickets based on functional areas or expertise d
 **Confirmation**: The SysAdmins Department has been successfully established and is ready for agent assignment.
 
 
-![osTicket Post-Installation Configuration Guide 14]()
-![osTicket Post-Installation Configuration Guide 15]()
-
-![osTicket Post-Installation Configuration Guide 16]()
-
-
 ### Section 4: Team Management
 
 <table>
@@ -210,6 +204,183 @@ To streamline ticket creation for end users:
 3. Click **Save Changes**
 
 This setting allows anonymous ticket submission, improving accessibility for end users.
+
+
+
+### Section 5: Agent and User Administration
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Agent Creation" src="https://github.com/user-attachments/assets/06d0c399-a9fc-46da-8915-75f2c41a06c4"/>
+    </td>
+    <td>
+      <img width="1000" alt="Agent Details" src="https://github.com/user-attachments/assets/5dce60a7-b2fc-4d88-8775-48b98666cf6f"/>
+    </td>
+  </tr>
+</table>
+
+**Creating Agent: Jane Doe**
+1. In **Admin Panel**, navigate to **Agents → Agents → + Add New Agent**
+2. **Account Information**:
+   - **Full Name**: Jane Doe
+   - **Email**: jane.doe@helpdesk.com (demonstration email)
+   - **Username**: jane_doe
+3. Click **Set Password**
+
+<p>
+<img width="750" alt="Password Configuration" src="https://github.com/user-attachments/assets/3b2e7fea-5741-4422-9643-5e7e3de070e0"/>
+</p>
+
+**Password Setup Process**
+1. Uncheck **"Send the agent a password reset email"**
+2. Set password: "Password1"
+3. Uncheck **"Require password change at next login"**
+4. Click **Update**
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Jane Access Settings" src="https://github.com/user-attachments/assets/b6633d6b-a9e6-47a1-86e1-cfca4039d2e4"/>
+    </td>
+    <td>
+      <img width="1000" alt="Jane Team Assignment" src="https://github.com/user-attachments/assets/1fe1b914-dfcc-4d60-a19e-bd18b256c4e7"/>
+    </td>
+  </tr>
+</table>
+
+**Access and Team Assignment**
+- **Access → Primary Department**: SysAdmins
+- **Role/Permissions**: Supreme Admin
+- **Teams**: Online Banking
+- Click **Create**
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="John Creation" src="https://github.com/user-attachments/assets/804c5041-1792-4e1d-b7b0-5fc0eee254fe"/>
+    </td>
+    <td>
+      <img width="1000" alt="John Details" src="https://github.com/user-attachments/assets/812bdb1b-2181-473e-b3cc-1ab8cf8d2a6d"/>
+    </td>
+  </tr>
+</table>
+
+**Creating Agent: John Doe**
+1. Click **+ Add New Agent**
+2. **Account Information**:
+   - **Full Name**: John Doe
+   - **Email**: john.doe@helpdesk.com
+   - **Username**: john_doe
+3. Apply the same password configuration process as with Jane
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="John Access Settings" src="https://github.com/user-attachments/assets/4a6164f2-9c06-4a10-bb1f-e4eed2c5b5c3"/>
+    </td>
+    <td>
+      <img width="1000" alt="John Final Setup" src="https://github.com/user-attachments/assets/2a3ff3f5-ada6-4e58-8f82-d897d865fb9c"/>
+    </td>
+  </tr>
+</table>
+
+**John's Access Configuration**
+- **Access → Primary Department**: Support
+- **Role/Permissions**: Expanded Access
+- Click **Create**
+
+**Note**: Expanded Access provides sufficient permissions for ticket handling while maintaining appropriate restrictions.
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="User Creation" src="https://github.com/user-attachments/assets/5697db2d-6cc5-4401-a209-e9a334981215"/>
+    </td>
+    <td>
+      <img width="1000" alt="User Setup" src="https://github.com/user-attachments/assets/5d6d66ac-814b-40fb-97ca-90522c755ab8"/>
+    </td>
+  </tr>
+</table>
+
+**Creating End User: Karen**
+1. Switch to **Agent Panel** (click "Admin Panel" in top-right)
+2. Navigate to **Users → + Add User**
+3. **User Information**:
+   - **Email**: karen@lonpacific.com
+   - **Full Name**: Karen
+4. Click **Add User**
+
+<p>
+<img width="750" alt="User Confirmation" src="https://github.com/user-attachments/assets/11678d78-05de-4dab-8ca4-c4d4b01466f8"/>
+</p>
+
+Karen is now registered as an end user and can submit tickets through the support portal.
+
+### Section 6: Service Level Agreement Configuration
+
+<p>
+<img width="750" alt="SLA Overview" src="https://github.com/user-attachments/assets/8e58d223-6c8c-4d15-b701-e46897bb6fd6"/>
+</p>
+
+Service Level Agreements establish response and resolution timeframes for different ticket priorities.
+
+**Accessing SLA Configuration**
+- Switch to **Admin Panel**
+- Navigate to **Manage → SLA → + Add New SLA Plan**
+
+<p>
+<img width="750" alt="Sev-A Configuration" src="https://github.com/user-attachments/assets/8a46f7b9-9598-4943-9174-00234b34b119"/>
+</p>
+
+**Critical Priority SLA (Sev-A)**
+- **Name**: Sev-A
+- **Grace Period**: 1 hour
+- **Schedule**: 24/7
+- Click **Add Plan**
+
+<p>
+<img width="750" alt="Sev-B Configuration" src="https://github.com/user-attachments/assets/c8e1583e-d974-4411-9fe6-5ab960941759"/>
+</p>
+
+**High Priority SLA (Sev-B)**
+- **Name**: Sev-B
+- **Grace Period**: 4 hours
+- **Schedule**: 24/7
+- Click **Add Plan**
+
+<p>
+<img width="750" alt="Sev-C Configuration" src="https://github.com/user-attachments/assets/a60a7a72-b34f-4d1c-a265-57be2d2342f5"/>
+</p>
+
+**Normal Priority SLA (Sev-C)**
+- **Name**: Sev-C
+- **Grace Period**: 8 hours
+- **Schedule**: Monday - Friday, 8am - 5pm with Holidays
+- Click **Add Plan**
+
+<p>
+<img width="975" alt="SLA Confirmation" src="https://github.com/user-attachments/assets/cf93acda-9e8b-446c-bcfe-ae4bac75c61d"/>
+</p>
+
+**Result**: Three-tier SLA structure established, providing appropriate response expectations for varying ticket severities.
+
+### Section 7: Help Topic Creation
+
+<p>
+<img width="750" alt="Help Topics Overview" src="https://github.com/user-attachments/assets/2295446d-68e8-41f6-aa7c-cbbb1f2f0c1a"/>
+</p>
+
+Help Topics categorize incoming tickets and can trigger automatic routing and priority assignments.
+
+**Accessing Help Topic Configuration**
+- Remain in **Admin Panel**
+- Navigate to **Manage → Help Topics → + Add New Help Topic**
+
+
+
+
+
 
 
 
