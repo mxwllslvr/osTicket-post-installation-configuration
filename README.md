@@ -439,7 +439,7 @@ Help Topics categorize incoming tickets and can trigger automatic routing and pr
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-<div align="center"> <img src="https://github.com/user-attachments/assets/2eebaf6f-f0f7-4521-9ef0-1bc83ac1ccfe" width="100%"> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/2eebaf6f-f0f7-4521-9ef0-1bc83ac1ccfe" width="75%"> </div>
 
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
